@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="weather">
+            <h2>Weather App</h2>
+            <input type="text" id="weather-box" placeholder="Enter your city">
+            <button id="btn">Get Weather</button>
+
+            <div id="info" class="details">
+                <h3 id="city-name"></h3>
+                <p id="date"></p>
+
+                <div class="images">
+                    <img id="icon" src="public/image/sunny.png" alt="weather-icon">
+                    <img id="icons" src="public/image/storm.png" alt="weather-icon">
+                </div>
+
+                <p id="temperature"></p>
+                <p id="description"></p>
+                <p id="wind-speed"></p>
+
+            </div>
+        </div>
+    </div>
+<script src="number.js"></script>
+</body>
